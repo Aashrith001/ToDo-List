@@ -18,6 +18,6 @@ $("input[type='text'").keypress(function(event){
         //emptying the String
         $(this).val("");
         //adding new todo
-        $("ul").append("<li><span>x</span> "+todo+"</li>");        
+        $("ul").append("<li><span><i class='fas fa-trash-alt'></i></span> "+todo+"</li>");        
     }
 });
